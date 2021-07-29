@@ -22,7 +22,7 @@ const SearchCollaborator = () => {
         direction="column"
         justifyContent="center"
         alignItems="center">
-        <Grid item xs={4}>
+        <Grid>
           <OutlinedCardC />
         </Grid>
       </Grid>
