@@ -1,4 +1,4 @@
-# TO·BE - SPACE MANEGEMENT MODEL<br>
+# TO·BE - SPACE MANAGEMENT MODEL<br>
 ## 📅 🖥️  Reserva tu escritorio, agenda tus reuniones.
 
 ### by
@@ -27,55 +27,77 @@
 
 ## 3. Preview
 
+ <img src="./src/assets/img/preview.gif" alt="Preview" class="designT">
 
+
+[PUEDES PROBAR LO QUE LLEVAMOS HASTA AHORA DEL PRODUCTO HACIENDO CLICK AQUÍ](https://space-management-model.web.app/)
 
 ## 4. Definición del producto
 
 
-Presentación producto.
+¿Quieres ver de qué se trata TO·BE? [CLICK ACÁ](https://vimeo.com/578456869)
+
+_**"To be"**_, del verbo inglés que en presente tiene dos significados SER y ESTAR. 
+Plataforma TO·BE es una plataforma que busca acompañar a la Empresa en el proceso de regreso a la oficina haciendo más cómoda, rápida y segura la ubicación de los colaboradores en sus espacios de trabajo.
+
+Es una aplicación web diseñada para los colaboradores de Everis que permite la reserva de escritorios, agendar reuniones, revisar reservas y disponibilidad.
+El objetivo de este proyecto es la planificación de espacios de trabajo de forma fácil, eficiente, considerando los aforos en tiempos de pandemia.
+
+Es un producto ideal para utilizar tanto en dispositivo móvil como página web, ya que se maneja de manera responsiva.
 
 El _**público objetivo**_ pensado para este proyecto abarca personas entre **25 - 45 años**, 
 usuarios trabajadores de la compañía Everis. Personas  _en su mayoría_ nativas digitales o que se manejan bien con Apps y páginas web.
 
 ### DESIGN THINKING
-Hablar sobre el proceso de design thinking / Trello / Miro
-Subir previews del trabajo, research y benchmark.
+
+Para comenzar a trabajar este desafío, como Equipo nos planteamos generar una propuesta de proceso creativo ligada con herramientas de Design thinking que nos permitieron profundizar en la problemática y empatizar mejor con los usuarios. (Y trabajar de manera colaborativa y creativa de forma remota)
+
+Dividimos la necesidad del cliente en base a cuatro preguntas: 
+
+- ¿Cuál y por qué es un problema?
+- ¿Quién tiene ese problema?
+- ¿Cuándo ocurre este problema?
+- ¿Cómo está siendo resuelto actualmente?
+
+ <img src="./src/assets/img/designthinkin.png" alt="Design Thinking" class="designT">
+
+Esto dio lugar a la creación de dos usuarios tipo, por un lado, una persona que le acomoda el teletrabajo, pero que eventualmente debe asistir a reuniones con clientes o con algún colega y que para hacerlo en las condiciones actuales, debe realizar una solicitud que hace poco fluido el proceso, le toma tiempo y no siempre es efectivo. Por otro lado, una persona que le acomoda el contacto físico al trabajar ya que gran parte de su trabajo requiere relaciones públicas; o que en su defecto  tiene a cargo grupo de colaboradores dentro de la misma empresa y le gustaría poder intercambiar diálogo con ellos demanera más fluida. Por otra parte, es una persona quien no posee un espacio adecuado para deasrrollar el teletrabajo de manera óptima en su hogar.
+
+ <img src="./src/assets/img/publicoobjetivo.png" alt="Público objetivo" class="publicoObjetivo">
+
+El análisis  de estos dos usuarios nos llevó a definir atributos para la aplicación web, además de comprender y revisar los requerimientos a la luz de las necesidades de estas personas.
+
+ <img src="./src/assets/img/requerimientosatributos.png" alt="requerimientos" class="requerimientos">
+
+Una vez definidos y comprendidos estos atributos y requerimientos, dimos una mirada a sitios web que permiten la reserva de espacios, por ejemplo, vuelos, horas médicas, hoteles. 
+
+
+Para ver el trabajo de Research completo  puedes hacer click [AQUÍ](https://miro.com/app/board/o9J_l6vv8Yk=/)
+
 
 ## 5. Historias de usuario
 
 
+        - HU 1. "Como usuario quiero revisar los espacios disponibles y los que están usados (espacios de trabajo, salas de reuniones, comedor u otros). Para ver mis opciones de ir a la oficina.".
 
-### HU 1. "Como usuario quiero poder registrarme con mi correo electrónico".
-_FEATURES: El usuario debe ser capaz de poder crear un usuario a partir de correo electrónico y 
-contraseña._
+        - HU 2. "Como usuario quiero seleccionar un espacio disponible para poder ir a trabajar de manera presencial.".
 
-* Solución: Crear un display de autenticación con registro de correo electrónico y creación de 
-contraseña.
-* Criterio mínimo de aceptación: 
-        - Que el usuario quede registrado en la base de datos de Firebase.
-        - Que el botón te lleve al muro de inicio de la Red social.
-        - Que nos permita el acceso a usuarios con cuentas válidas.
+        - HU 3. "Como administrador quiero que muestre fecha, hora y tiempo de reserva considerando un espacio para sanitización."
 
-* Product Backlog:
+        - HU 4. "Como usuario quiero poder eliminar una reserva para que el espacio quede disponible si no lo utilizaré."
 
-        - Crear proyecto en Firebase.
-        - Crear Componente contenedor de AuthEmail.
-        - Crear input de correo y creación de contraseña.
-        - Crear botón de log in.
-        - Crear colección de usuarios en Firebase.
-        - Darle funcionalidad al botón para que valide la cuenta con Firebase y la ingrese.
-        - Crear aler que me avise si los input están vacíos o inválidos.
-        - Crear función que me permita decidir si crear cuenta o iniciar sesión (operador 
-ternario)
-        - Añadir estilo a ambos display de acuerdo al diseño en Figma.
-      
+        - HU 5. "Como usuario quiero ver cuales de mis compañeros están en la oficina para contactarlos."
+
+        - HU 6. "Como usuario quiero recibir un mensaje y correo para saber cuando mi reserva este confirmada"
+
+        - HU 7. "Como usuario quiero iniciar sesión con mi correo y contraseña para ingresar a la aplicación."
 
 
 ## 6. Prototipo
 
-### Diseño de baja fidelidad
+### DISEÑO DE BAJA FIDELIDAD
 
-LINK DISEÑO BAJA (MIRO)
+ <img src="./src/assets/img/prototipobaja.png" alt="PrototipoBajaFidelidad" class="InfinityCodeTeam">
 
 Se diseñó un prototipo que cumpliera con las condiciones básicas pedidas por los usuarios, que 
 sea 
@@ -83,15 +105,17 @@ interactivo y de fácil acceso. A esta primera interacción le buscamos una est�
 incentivara el uso de la red social.
 
 
-### Diseño de alta fidelidad
+## DISEÑO DE ALTA FIDELIDAD
 
-LINK DISEÑO FIGMA
+<img src="./src/assets/img/prototipoalta.png" alt="PrototipoAltafidelidad" class="InfinityCodeTeam">
 
-### Diseño final
+Puedes revisar el diseño completo, visitando este [LINK](https://www.figma.com/proto/YZxKJdApabfqqoN4lVm85W/infinity-code-team-library?node-id=347%3A42&scaling=scale-down)
 
-        - Versión Desktop
+### DISEÑO FINAL
 
-LINK CAPTURA PANTALLA PROTOTIPO
+ - Versión Desktop
+
+ <img src="./src/assets/img/diseñofinal.png" alt="InfinityCodeTeam" class="InfinityCodeTeam">
 
 
 
